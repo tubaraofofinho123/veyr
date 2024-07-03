@@ -31,6 +31,8 @@ function App() {
 
   return ( 
   
+    <div className='container'>
+      
     <div className='App'> 
     <h1>Busca de endereço por CEP</h1> 
     <div className='search'> 
@@ -57,7 +59,8 @@ function App() {
     )} 
 
     </div>
-
+</div>
+    
     ); 
 
     } 
